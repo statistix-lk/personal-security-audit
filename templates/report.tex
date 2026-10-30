@@ -1,0 +1,43 @@
+% Leere Vorlage für Overleaf; LuaLaTeX oder pdfLaTeX.
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=22mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[provide=*,ngerman]{babel}
+\usepackage{tabularx,booktabs}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\begin{document}
+\section*{Sicherheitsprüfung: Berichtsvorlage}
+\textbf{Vorlage, kein durchgeführter Prüflauf. Vertrauliche Rohdaten bleiben lokal.}
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+Berichts-ID / Gerätekennung & Ausfüllen \\
+Beginn / Ende / Zeitzone & Ausfüllen \\
+Ausführungsumgebung & Tatsächliches Gerät oder Cloud-Projekttest \\
+Betriebssystem / Build & Ausfüllen \\
+Codeversion / Commit / Hash & Ausfüllen \\
+Werkzeuge / Erkennungsstand & Ausfüllen oder nicht eingesetzt \\
+Vergleichsbericht & Ausfüllen oder keiner \\
+\bottomrule
+\end{tabularx}
+\section*{Umfang und Veränderungen}
+Erfasste Bereiche, Methoden und Vergleichbarkeit erläutern. Neue, veränderte,
+entfernte und diesmal nicht erfasste Objekte unterscheiden.
+\section*{Befunde und Unsicherheit}
+Beleg, Einstufung, Unsicherheit und nächsten Schritt je Befund dokumentieren.
+Kategorien: keine Hinweise im geprüften Umfang; unklar; schädliche Datei;
+aktive Kompromittierung; nicht geprüft. Ein Inventar allein erhält kein
+Sicherheitsurteil.
+\section*{Lücken und Fehler}
+Fehlende Rechte, unzugängliche Medien, verschlüsselte/übersprungene Dateien,
+Zeit- und Größenlimits sowie weitere unberücksichtigte Bereiche nennen.
+\section*{Maßnahmen}
+Vorschläge von tatsächlich durchgeführten Maßnahmen unterscheiden.
+\textbf{Datenverlust-Risiko:} Auswirkungen und Wiederherstellung vor destruktiven
+Maßnahmen erläutern.
+\section*{Abschluss}
+Offene Aufgaben, nächste Prüfung, fachlich bestätigte Vergleichsbasis und
+Datenschutzprüfung dokumentieren. Keine Garantie vollständiger Schadsoftwarefreiheit.
+\end{document}

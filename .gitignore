@@ -1,0 +1,27 @@
+# Echte Geräteberichte bleiben außerhalb des Repositorys.
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+*.log
+*.sqlite*
+*.db
+*.zip
+*.tar*
+*.dmg
+*.ipa
+raw/
+backups/
+output/
+runs/
+local/
+reports/*
+!reports/README.md
+# Keine echten Inventare; JSON-Testdaten werden im Test zur Laufzeit erzeugt.
+inventory*.json
