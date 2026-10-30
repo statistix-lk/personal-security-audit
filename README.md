@@ -1,5 +1,11 @@
 # Personal Security Audit
 
+> **Kritischer Review vom 30.10.2026:** Der Originalcode 0.1.0 ist zur
+> Aufbewahrung importiert. Drei nachgewiesene Fehler sind noch offen, darunter
+> umgehbare Pfadprüfungen bei gleichzeitig veränderten Ordnern.
+> Vor einem echten Geräte-Pilotlauf beheben und erneut prüfen.
+> Befunde, Reproduktionen und Grenzen: [Import-Review](docs/review-2026-10-30.md).
+
 Privates Arbeitsprojekt für nachvollziehbare Sicherheitsprüfungen von Mac,
 Ubuntu, iPhone und externen Datenträgern. Es verbindet lokale Prüfprogramme,
 Arbeitsaufträge für Codex und einheitliche Berichte.
